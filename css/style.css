@@ -1,0 +1,65 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* common styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+h6 {
+  font-weight: 600;
+}
+.selected {
+  background-color: #333;
+  color: #fff;
+}
+.choose-btn {
+  border: 2px solid rgb(90, 90, 90);
+  transition: 0.5s all ease;
+  font-weight: 500;
+}
+.choose-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+.total-light-border {
+  border-bottom: 2px solid rgb(202, 202, 202);
+}
+/* cart */
+.cart-inner {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+}
+/* total cost */
+.total-wrap {
+  width: 40%;
+}
+.total-cost {
+  margin-bottom: 20px;
+}
+.total-deep-border {
+  border-bottom: 4px solid #555;
+}
+/* promo code */
+.promo-wrap {
+  width: 40%;
+}
+
+/* Responsive design */
+@media (max-width: 575.98px) {
+  .total-wrap {
+    width: 100%;
+  }
+  .promo-wrap {
+    width: 100%;
+  }
+  .choose-btn {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0 !important;
+  }
+  .description-text {
+    margin-top: 60px;
+    text-align: justify;
+  }
+}
